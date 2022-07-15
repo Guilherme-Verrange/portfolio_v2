@@ -1,0 +1,14 @@
+:root{
+
+    /*   Cores   */
+    --primary-color: #3B3B48;
+    --secondary-color: #707070;
+    --white-color: rgb(255, 255, 255);
+    --html-color: #EC6231;
+    --css-color: #0078D7;
+    --javascript-color: #FFE135;
+
+    /*   Fontes   */
+   --main-font: 'Roboto', sans-serif;
+   --secondary-font: 'Poppins', sans-serif;
+}

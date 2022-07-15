@@ -1,0 +1,62 @@
+@media only screen and (max-width: 992px) {
+
+    main .hello{
+
+        width: 100%;
+        padding: 25px;
+
+    }
+
+    main .images{
+        display: none;
+    }
+
+    header{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    }
+
+    /************************** Header Mobile ****************************/
+
+    header .nave{
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
+
+    header ul{
+
+        display: none;
+       
+    }
+
+    header .nave .toggle{
+    
+        display: flex;
+    
+    }
+
+
+
+}
+
+
+@media only screen and (max-width: 720px) {
+
+    
+
+    /************************** Main Mobile ****************************/
+
+
+    main .hello .buttons-hello{
+
+        flex-direction: column;
+        gap: 40px;
+
+    }
+
+/*************************************************************************/
+  }
