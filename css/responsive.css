@@ -3,7 +3,6 @@
     main .hello{
 
         width: 100%;
-        padding: 25px;
 
     }
 
@@ -15,6 +14,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            z-index: 1;
     }
 
     /************************** Header Mobile ****************************/

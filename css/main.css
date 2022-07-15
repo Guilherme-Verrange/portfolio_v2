@@ -27,6 +27,7 @@ header{
 
     position: fixed;
     width: 100%;
+    height: auto;
     background-color: var(--white-color);
     padding: 10px 90px;
     transition: 0.5s;
@@ -252,6 +253,8 @@ main .hello .buttons-hello .icons img{
 main .hello .buttons-hello .icons img:hover{
     transform: translateY(-15px); transition: 0.5s;
 }
+
+
 
 main .hello button{
     
