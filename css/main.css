@@ -227,7 +227,7 @@ main .hello span{
 main .hello .buttons-hello{
 
     display: flex;
-    margin-top: 50px;
+    margin-top: 10px;
     width: 100%;
     align-content: center;
     flex-direction: row;
