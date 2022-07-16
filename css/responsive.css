@@ -76,7 +76,7 @@
     }
 }
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 768px) {
 
 /************************** Main ****************************/
 
@@ -86,5 +86,26 @@
         gap: 40px;
 
     }
+
+    section{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section .card-skills{
+
+    transform: translateY(0%);
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    }
+
+
+
 }
 /*************************************************************************/
