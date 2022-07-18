@@ -440,12 +440,12 @@ section .card .content .data h3 span{
 
 
 section .card-skills{
+    margin-top: 250px;
     display: flex;
     align-items: center;
     flex-direction: column;
     width: 40%;
     height: 620px;
-   
     padding: 20px 0;
 }
 
