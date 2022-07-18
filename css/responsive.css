@@ -88,7 +88,7 @@
     }
 
     section{
-        
+
         margin-top: 50px;
         display: flex;
         flex-direction: column;
@@ -97,13 +97,15 @@
     }
 
     section .card-skills{
-    
-    marhin-top: 0px
+
+
+    margin-top: 0px;
     display: flex;
     flex-direction: column;
     align-content: space-between;
     justify-content: center;
     flex-wrap: nowrap;
+    
     }
 
 
