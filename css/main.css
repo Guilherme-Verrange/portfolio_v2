@@ -337,7 +337,7 @@ section{
 
     margin-top: 200px;
     display: flex;
-    height: 100vh;
+   
     width: 100%;
     padding: 0 50px;
     background-color: var(--white-color);
@@ -407,7 +407,6 @@ section .card .content .bio p{
 section .card .content{
 
     width: 100%;
-    height: auto;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -440,13 +439,16 @@ section .card .content .data h3 span{
 
 
 section .card-skills{
+    
+    position: relative;
     display: flex;
     align-items: center;
     flex-direction: column;
     width: 40%;
-    height: 620px;
+    height: 600px;
     margin-top: -250px;
     padding: 20px 0;
+   
 }
 
 section .html{
@@ -613,10 +615,99 @@ section .text{
 }
 
 
+/*****************  Other Skill  *********************************/
+
+.other-skill{
 
 
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
 
-/*********************************************************
+.other-skill .linhaX{
+
+    width: 60%;
+    height: 2px;
+    background-color: var(--gray-700);
+}
+
+.other-skill p{
+
+    font-size: 2.0rem;
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 0 30px;
+}
+
+.other-skill .settings-skill{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+   
+
+}
+
+
+.other-skill-tree{
+
+    width: 100%;
+    display: flex;
+    padding: 0 30px;
+    
+}
+
+.other-skill-tree p{
+
+    font-size: 1.80rem;
+   font-family: var(--secondary-font);
+   font-weight: 500;
+}
+
+
+.other-skill-tree .skill-code{
+    
+    width: 50%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+
+}
+
+
+.other-skill-tree .linhaY{
+
+    position: relative;
+    width: 300px;
+    height: 2px;
+    top: 100px;
+    background-color: var(--gray-700);
+    transform: rotate(90deg);
+    
+
+}
+
+
+.other-skill-tree .skill-software{
+
+    width: 50%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+}
+
 
 
 
