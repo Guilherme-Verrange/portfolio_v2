@@ -97,8 +97,8 @@
     }
 
     section .card-skills{
-
-
+    
+    marhin-top: 0px
     display: flex;
     flex-direction: column;
     align-content: space-between;
