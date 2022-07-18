@@ -445,7 +445,7 @@ section .card-skills{
     flex-direction: column;
     width: 40%;
     height: 620px;
-    transform: translateY(-30%);
+   
     padding: 20px 0;
 }
 
