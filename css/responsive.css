@@ -74,7 +74,25 @@
         display: flex;
     
     }
+
+    /************************** Card ****************************/
+
+    .trabalhos .content{
+
+        display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    }
+
+    .trabalhos .content .card{
+
+        margin: 30px 0;
+    }
 }
+
+
 
 @media only screen and (max-width: 768px) {
 
@@ -111,15 +129,13 @@
 
 /*******************Other Skill******************************************/
 
-.other-skill p{
-    padding: 0;
-
-}
 
 .other-skill .settings-skill img{
     display: none;
 }
-
+.other-skill p{
+    padding: 0;
+}
 
 .other-skill .linhaX{
     display: none;
@@ -139,7 +155,6 @@
     gap: 100px;
 
 }
-
 
 }
 
