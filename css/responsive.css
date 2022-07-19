@@ -98,6 +98,15 @@
 
 /************************** Main ****************************/
 
+.trabalhos .content .card{
+
+    width: 300px;
+    padding: 0 30px;
+
+}
+
+
+
     main .hello .buttons-hello{
 
         flex-direction: column;

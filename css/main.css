@@ -325,7 +325,7 @@ main .images .pcImg{
     height: 250px;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
+    width: 100%; transform: translateY(0px);
     background-image: url(/img/layered-waves-haikei.svg);
 }
 
@@ -721,16 +721,16 @@ section .text{
 }
 
 
-/*********************************************/
+/******************** Card *************************/
 
 .trabalhos .img-svg{
 
     height: 450px;
-    width: 100%;
-    transform: translateY(2px);
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(/img/wave.svg);
+    width: 100%;
+    background-image: url(/img/wavecard.svg);
+    transform: translateY(5px);
     
 }
 
@@ -748,7 +748,7 @@ section .text{
 .trabalhos .content .card{
 
     background-color: var(--white-color);
-    height: 500px;
+    height: 550px;
     width: 400px;
     margin: 50px 20px;
     border-bottom-right-radius: 20px;
@@ -770,7 +770,7 @@ section .text{
     
     height: 250px;
     display: flex;
-    height: 250px;
+    height: 300px;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
@@ -825,4 +825,61 @@ section .text{
 
     color: #333;
 }
+
+/******************** Footer *************************/
+
+footer{
+
+    width: 100%;
+    height: 200px;
+    background-color: #fff;
+}
+
+footer .items{
+
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer .items .links{
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.20rem;
+   
+}
+
+footer .items .links button{
+
+    border: none;
+    font-size: 1.0rem;
+    padding: 5px 10px;
+
+}
+
+
+
+
+
+
+footer .items .footer-text{
+
+    padding: 20px 0;
+    font-size: 0.80rem;
+    text-transform: uppercase;
+    font-family: var(--primary-font);
+
+}
+
+footer .items .footer-text a{
+
+    cursor: pointer;
+    border-bottom: 1px solid #333;
+
+}
+
+
+
 
