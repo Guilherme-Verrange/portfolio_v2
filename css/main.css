@@ -727,6 +727,7 @@ section .text{
 
     height: 450px;
     width: 100%;
+    transform: translateY(2px);
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url(/img/wave.svg);
