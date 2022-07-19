@@ -109,8 +109,40 @@
     }
 
 
+/*******************Other Skill******************************************/
+
+.other-skill p{
+    padding: 0;
 
 }
+
+.other-skill .settings-skill img{
+    display: none;
+}
+
+
+.other-skill .linhaX{
+    display: none;
+}
+
+.other-skill-tree .linhaY{
+    display: none;
+}
+
+.other-skill-tree{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    text-align: center;
+    gap: 100px;
+
+}
+
+
+}
+
 /*************************************************************************/
 
 

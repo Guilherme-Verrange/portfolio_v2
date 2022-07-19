@@ -626,6 +626,8 @@ section .text{
     justify-content: space-around;
     flex-direction: row;
     align-items: center;
+    padding: 0 100px;
+    margin: 50px 0;
 }
 
 .other-skill .linhaX{
@@ -661,6 +663,7 @@ section .text{
     display: flex;
     padding: 0 30px;
     
+    
 }
 
 .other-skill-tree p{
@@ -670,14 +673,25 @@ section .text{
    font-weight: 500;
 }
 
+.other-skill-tree span{
+
+    font-size: 0.90rem;
+    font-family: var(--secondary-font);
+    text-transform: uppercase;
+    color: var(--secondary-color);
+    
+   
+}
+
 
 .other-skill-tree .skill-code{
     
     width: 50%;
-    height: 100px;
+    height: 250px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     justify-content: flex-start;
     gap: 30px;
 
@@ -698,20 +712,15 @@ section .text{
 
 
 .other-skill-tree .skill-software{
-
     width: 50%;
-    height: 100px;
+    height: 250px;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: flex-start;
     gap: 30px;
 }
 
 
-
-
-
-
+/*********************************************/
 
 
