@@ -9,6 +9,7 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+    scroll-behavior: smooth;
 
     
 }
@@ -747,7 +748,7 @@ section .text{
     width: 100%;
     height: auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
    
     
 }
